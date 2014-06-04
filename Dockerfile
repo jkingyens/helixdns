@@ -1,5 +1,4 @@
 FROM ubuntu:12.04
-
 RUN apt-get update -q
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -qy build-essential curl git
 RUN curl -s https://go.googlecode.com/files/go1.2.1.src.tar.gz | tar -v -C /usr/local -xz
